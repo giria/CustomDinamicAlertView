@@ -14,6 +14,7 @@
 		8ADF5E811A94F6BB00D9F597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF5E801A94F6BB00D9F597 /* Images.xcassets */; };
 		8ADF5E841A94F6BB00D9F597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF5E821A94F6BB00D9F597 /* LaunchScreen.xib */; };
 		8ADF5E901A94F6BB00D9F597 /* CustomDynamicAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF5E8F1A94F6BB00D9F597 /* CustomDynamicAlertViewTests.m */; };
+		8ADF5E9B1A95025E00D9F597 /* CustomdinamicAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF5E9A1A95025E00D9F597 /* CustomdinamicAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8ADF5E891A94F6BB00D9F597 /* CustomDynamicAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADF5E8E1A94F6BB00D9F597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADF5E8F1A94F6BB00D9F597 /* CustomDynamicAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDynamicAlertViewTests.m; sourceTree = "<group>"; };
+		8ADF5E991A95025E00D9F597 /* CustomdinamicAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomdinamicAlertView.h; sourceTree = "<group>"; };
+		8ADF5E9A1A95025E00D9F597 /* CustomdinamicAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomdinamicAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				8ADF5E7A1A94F6BB00D9F597 /* ViewController.h */,
 				8ADF5E7B1A94F6BB00D9F597 /* ViewController.m */,
 				8ADF5E7D1A94F6BB00D9F597 /* Main.storyboard */,
+				8ADF5E991A95025E00D9F597 /* CustomdinamicAlertView.h */,
+				8ADF5E9A1A95025E00D9F597 /* CustomdinamicAlertView.m */,
 				8ADF5E801A94F6BB00D9F597 /* Images.xcassets */,
 				8ADF5E821A94F6BB00D9F597 /* LaunchScreen.xib */,
 				8ADF5E731A94F6BB00D9F597 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				8ADF5E7C1A94F6BB00D9F597 /* ViewController.m in Sources */,
 				8ADF5E791A94F6BB00D9F597 /* AppDelegate.m in Sources */,
+				8ADF5E9B1A95025E00D9F597 /* CustomdinamicAlertView.m in Sources */,
 				8ADF5E761A94F6BB00D9F597 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
